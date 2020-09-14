@@ -1,0 +1,167 @@
+
+html,
+body {
+    margin: 0px;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    font-size: 24px;
+    color: #000;
+    direction: ltr;
+    font-family: 'Brandon Grotesque';
+    background: #fff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-weight: 600; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+form,
+input,
+ul,
+li {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+::selection {
+    background: #3777bb;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #3777bb;
+    color: #fff;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+input,
+select,
+textarea {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    transition: .4s color;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+    color:#000;
+}
+
+a img {
+    border: 0px;
+    outline: none;
+}
+
+
+td {
+    padding: 0;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.clearfix::after {
+    clear: both;
+}
+.btn.focus, .btn:focus, button:focus {
+    outline: 0;
+    box-shadow:none;
+}
+.row { margin-left: 0; margin-right: 0; }
+p { margin-bottom: 15px; }
+
+.bg-title  { float: left; line-height: 44px; width:100%; margin:20px 0; }
+.blue-bg { background-color: #3340bd; color:#fff; }
+
+.main-content { padding-top:100px; }
+
+.pt-9 { padding-top:90px; }
+.pt-15 { padding-top:150px; }
+.pt-6 { padding-top:60px; }
+.pb-6 { padding-bottom:60px; }
+.pb-15 { padding-bottom: 150px; }
+.pb-30 { padding-bottom: 300px; }
+.mt-minus-100 { margin-top: -100px; }
+
+/*----- Button classes -----*/
+.btn { font-size: 24px; padding:6px 14px; border-radius: 30px; border:0; }
+.white-btn { background-color: #fff;  color:#3340bd;  }
+.white-btn:hover { background-color: #000; color:#fff; }
+.blue-btn { background-color: #3340bd; color:#fff; }
+.blue-btn:hover { background-color: #000; color:#fff; }
+.pink-btn { background-color: #e7d0d6; color:#000; }
+.pink-btn:hover { background-color: #000;; color:#fff; }
+
+/*----- Background color classes -----*/
+.sky-bg { background-color: #B8D5FF; }
+.pink-bg { background-color: #e7d0d6; }
+
+.blue-color { color: #3340bd; }
+.blue-bg { background-color:#3340bd; }
+
+.girlsuperpower { position: absolute; left:0; top:-50px; }
+.boysuperpower { position: absolute; right:0; bottom:-50px; }
+.center { max-width: 600px; width: 100%; margin:0px auto; }
+.white-box { background-color: #fff; height: 100%; text-align: center; border-radius: 5px; padding:15px 15px 0px 15px; float: left; webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.10);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.10);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.10); transition: box-shadow .2s; width:100%; margin-bottom: 10px; }
+.white-box:hover { webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.20); }
+.success-session  h3 { font-size: 38px;  }
+.success-session  h3 span { display: block; font-weight: 900; }
+
+.round-circle { background-color: #3340bd; justify-content: center; display: flex; flex-wrap: wrap; border-radius: 100%; color:#fff; padding:0px 30px 0px 60px; text-align: center; align-items: center; position: absolute; left:-60px; top:-110px; width: 370px; height: 370px; }
+.dummy-circle-img { height: 200px; width: 200px; margin:20px auto; border-radius: 100%; background-color: #eaeaea;  }
+
+
+.white-heading  { background-color: #fff; border-radius: 30px; margin-bottom: 20px; display: inline-table; padding:8px 15px; color:#3340bd; }
+.claire-parent { width:420px; height: 420px; top:-160px; right:-100px; padding:50px 45px; left: auto; }
+.bottom-circle { width:420px; height: 420px; top:auto; bottom:-200px; right:0px; padding:50px 70px; left: 0; margin:0px auto; }
+.position-right { position: absolute; right:0; padding: 0; }
+.position-left { position: absolute; left: 0; padding:0; }
+.mt-minus-250 { margin-top: -250px; } 
+.success-student { left: -100px; }
+
+.founder-round-circle { width: 170px; height: 170px; padding:0px 30px; top:-50px; }
+.right-circle { right:-40px; left:auto; }
+.left-circle { left:10px; right:auto; }
+.founder .custom-pad { padding-left: 80px; }
+.smile-round { width: 220px; height: 220px; padding:0px 30px; }
+.plr-5 { padding-left:50px; padding-right: 50px; }
+.mt-minus-140 { margin-top: -140px; }
+
+.schedule-my-success { background:url('./images/schdule-success.jpg') no-repeat; background-size: cover; padding:13% 0;}

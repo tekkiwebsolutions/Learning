@@ -1,0 +1,10 @@
+header { width:100%; }
+.navbar { padding:1.5rem 1rem; }
+.navbar-light .navbar-nav .nav-link { color:rgba(0,0,0,.9); }
+.get-started-btn { position: absolute; padding-top:100px; text-align: center; right:0; top:-70px; height: 200px; width: 200px; color:#fff; border-radius: 100%; background-color: #3340BD; }
+.get-started-btn:hover { background-color: #000; color:#fff; }
+.navbar-expand-lg .navbar-nav .nav-link { padding-right: 1rem; padding-left: 1rem; }
+.navbar-collapse.collapse { padding-left: 40px; }
+
+
+

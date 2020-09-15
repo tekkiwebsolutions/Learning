@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Form, Row, Col, Button } from 'react-bootstrap';
+import { Container, Form, Col, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../fonts/fonts.css';
 import '../../common.css';
@@ -76,6 +76,7 @@ const ContactForm = () => (
 			    </Col>
 			  </Form.Row>
 			  <Button type="submit" className="btn blue-btn">Submit form to schedule session</Button>
+				<p className="pt-4">After submitting, we will call or email you to set up the session.</p>
 			</Form.Group>
 	 	</div>
 	</Container>

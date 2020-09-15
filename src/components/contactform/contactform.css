@@ -1,4 +1,4 @@
-.contact-bg { background-color: #fff; border:1px solid #b7b7b7; padding:30px 50px; max-width: 800px; border-radius: 50px; width: 100%; margin:0px auto; }
+.contact-bg { background-color: #fff; border:1px solid #b7b7b7; padding:50px 50px 30px 50px; max-width: 800px; border-radius: 50px; width: 100%; margin:0px auto; }
 .form-label { font-size: 20px; text-align: left; font-weight: 600; }
 .contact-bg input { background-color: #B8D5FF; border-radius: 30px; }
 .form-row { margin-bottom: 20px; }

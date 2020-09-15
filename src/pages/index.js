@@ -15,9 +15,13 @@ import Footer from '../components/footer/footer.js';
 import '../components/footer/footer.css';
 import Approach from '../components/personalized-approach/personalized-approach.js';
 import Students from '../components/successful-students/successful-students.js';
-
+import {Helmet} from "react-helmet";
 const Home = () => (
 	<div>
+	   <Helmet>
+            <title>Home</title>
+            <body class='pink-header' />
+        </Helmet>
 		<Header></Header>
 		<div className="main-content pink-bg pb-5">
 			<Container>
@@ -151,7 +155,6 @@ const Home = () => (
 				</div>
 			</Col>
 		</Row>
-		
 		<Students></Students>
 	</div>
 	<div className="pink-bg pt-9 pb-6 success-session">

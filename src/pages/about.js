@@ -11,12 +11,16 @@ import sam from '../images/sam.jpg';
 import Footer from '../components/footer/footer.js';
 import '../components/footer/footer.css';
 import Approach from '../components/personalized-approach/personalized-approach.js';
-
+import {Helmet} from "react-helmet";
 
 const About = () => (
 	<div>
+		<Helmet>
+            <title>About</title>
+            <body class='blue-header' />
+        </Helmet>
 		<Header></Header>
-		<div className="sky-bg pt-9 pb-15 mt-4">
+		<div className="sky-bg pt-9 pb-15">
 			<Container>
 				<h5>ABOUT US</h5>
 				<h2 className="bg-title mt-4 clearfix"><mark className="blue-bg">When your student’s future is at stake, who you trust matters</mark></h2>
@@ -103,10 +107,10 @@ const About = () => (
 					   <p><b>The Renaissance Method is the foundation of LessonUp’s teaching approach.</b></p>
 					  <p>With it, we help students develop the critical thinking skills they need to:</p>
 					  <ul>
-					  	<li>decode key concepts</li>
-					  	<li>approach challenging problems</li>
-					  	<li>prepare for tough assessment periods, and</li>
-					  	<li>get better marks on exams.</li>
+					  	<li>- decode key concepts</li>
+					  	<li>- approach challenging problems</li>
+					  	<li>- prepare for tough assessment periods, and</li>
+					  	<li>- get better marks on exams.</li>
 					  </ul>
 					  <h4 className="mt-4 mb-4">How?</h4>
 					  <p>We show them how to develop their own systems of evaluation, to learn how to enquire, and to build a toolkit of strategies and skills to select the most suitable approach for the task at hand.</p>

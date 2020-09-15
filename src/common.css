@@ -110,6 +110,7 @@ p { margin-bottom: 15px; }
 
 .pt-9 { padding-top:90px; }
 .pt-15 { padding-top:150px; }
+.pt-20 { padding-top:200px; }
 .pt-6 { padding-top:60px; }
 .pb-6 { padding-bottom:60px; }
 .pb-15 { padding-bottom: 150px; }
@@ -128,6 +129,9 @@ p { margin-bottom: 15px; }
 /*----- Background color classes -----*/
 .sky-bg { background-color: #B8D5FF; }
 .pink-bg { background-color: #e7d0d6; }
+
+.pink-header header { background-color: #e7d0d6; }
+.blue-header header { background-color: #B8D5FF; }
 
 .blue-color { color: #3340bd; }
 .blue-bg { background-color:#3340bd; }
@@ -163,5 +167,12 @@ p { margin-bottom: 15px; }
 .smile-round { width: 220px; height: 220px; padding:0px 30px; }
 .plr-5 { padding-left:50px; padding-right: 50px; }
 .mt-minus-140 { margin-top: -140px; }
+.seeing-round { width: 280px; height: 280px; padding:0px 40px; }
+.middle-circle { top:30px; right: -200px; }
 
 .schedule-my-success { background:url('./images/schdule-success.jpg') no-repeat; background-size: cover; padding:13% 0;}
+.contact-heading { font-size: 42px; font-weight: 500; }
+.middle-left-circle { left: -200px; top:30px; }
+.iconList li { margin-top:10px; }
+.iconList img { margin-top: 5px; vertical-align: top; margin-right: 10px; }
+.centerdiv { max-width: 700px; }

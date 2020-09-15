@@ -20,7 +20,7 @@ const Header = () => (
 			    </Nav>
 			  </Navbar.Collapse>
 			  <div className="">
-			 	<Link to="/contact" className="get-started-btn">Get Started</Link>
+			 	<Link to="/" className="get-started-btn">Get Started</Link>
 			  </div>
 			</Navbar>
 		</Container>

@@ -18,7 +18,6 @@ import {Helmet} from "react-helmet";
 const Contact = () => (
 	<div>
 		<Helmet>
-            <title>Contact</title>
             <body class='blue-header' />
         </Helmet>
 		<Header></Header>

@@ -8,7 +8,7 @@ body {
 
 body {
     margin: 0px;
-    font-size: 24px;
+    font-size: 23px;
     color: #000;
     direction: ltr;
     font-family: 'Brandon Grotesque';
@@ -168,11 +168,33 @@ p { margin-bottom: 15px; }
 .plr-5 { padding-left:50px; padding-right: 50px; }
 .mt-minus-140 { margin-top: -140px; }
 .seeing-round { width: 280px; height: 280px; padding:0px 40px; }
-.middle-circle { top:30px; right: -200px; }
+.middle-circle { top:10px; right: -200px; }
 
 .schedule-my-success { background:url('./images/schdule-success.jpg') no-repeat; background-size: cover; padding:13% 0;}
 .contact-heading { font-size: 42px; font-weight: 500; }
-.middle-left-circle { left: -200px; top:30px; }
+.middle-left-circle { left: -200px; top:10px; }
 .iconList li { margin-top:10px; }
 .iconList img { margin-top: 5px; vertical-align: top; margin-right: 10px; }
 .centerdiv { max-width: 700px; }
+
+
+@media (max-width:991px){
+    .white-box h4 { font-size: 20px;  }
+    .girlsuperpower, .boysuperpower { display: none;  }
+    
+}
+@media (max-width:767px){ 
+   .round-circle { position: relative; width: 290px; height: 290px; top:-50px; left: 0; right: 0; padding:30px; margin:0px auto; font-size: 18px; } 
+   .position-right { position: relative; left: 0; right: 0; }
+   .pb-30 { padding-bottom: 50px; }
+   .mt-minus-100 { margin-top: 0; }
+   .img-fluid { margin:0px auto; display: block;  }
+   .mt-minus-250 { margin-top:0; }
+   .main-content { padding-top:50px; }
+   .pb-15 { padding-bottom: 80px; }
+   .pt-20 { padding-top: 60px; }
+   .founder-round-circle { width: 200px; height: 200px; }
+   .founder .custom-pad { padding-left: 0; }
+
+}
+

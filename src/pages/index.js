@@ -19,7 +19,6 @@ import {Helmet} from "react-helmet";
 const Home = () => (
 	<div>
 	   <Helmet>
-            <title>Home</title>
             <body class='pink-header' />
         </Helmet>
 		<Header></Header>
@@ -39,21 +38,21 @@ const Home = () => (
 					</div>
 				</div>
 				<Row className="pt-9">
-				    <Col xs={12} md={4}>
+				    <Col xs={12} md={4} className="mb-3">
 				      <Link to="/" className="white-box">
 				      	<img src={dummyImg} alt="dummyImg" className="img-fluid" />
 				      	<h4 className="mt-3 mb-2">PERSONALISED LEARNING</h4>
 				      	<p>You get study plans that are aligned with your student’s unique needs and learning style.</p>
 				      </Link>
 				    </Col>
-				    <Col xs={12} md={4}>
+				    <Col xs={12} md={4} className="mb-3">
 				      <Link to="/" className="white-box">
 				      	<img src={dummyImg} alt="dummyImg" className="img-fluid" />
 				      	<h4 className="mt-3 mb-2">PROVEN STUDY STRATEGIES</h4>
 				      	<p>You get study plans that are aligned with your student’s unique needs and learning style.</p>
 				      </Link>
 				    </Col>
-				    <Col xs={12} md={4}>
+				    <Col xs={12} md={4} className="mb-3">
 				      <Link to="/" className="white-box">
 				      	<img src={dummyImg} alt="dummyImg" className="img-fluid" />
 				      	<h4 className="mt-3 mb-2">EXPERIENCED TUTORS</h4>
@@ -62,10 +61,10 @@ const Home = () => (
 				    </Col>
 				</Row>
 			</Container>
-			<div className="mt-4 pt-9">
+			<div className="mt-2 pt-9">
 				<Row className="ml-0 mr-0">
 				    <Col xs={12} md={6}>
-				    	<img src={sam} className="" alt="sam" />
+				    	<img src={sam} className="img-fluid" alt="sam" />
 					      <div className="round-circle">
 					      	<p>“I’ve learned the most amazing things about how to study. No one has ever taught me that before.”</p>
 					      </div>

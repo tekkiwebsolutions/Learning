@@ -21,7 +21,6 @@ import {Helmet} from "react-helmet";
 const Tutoring = () => (
 	<div>
 		<Helmet>
-            <title>Tutoring</title>
             <body class='blue-header' />
         </Helmet>
 		<Header></Header>

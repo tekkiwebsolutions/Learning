@@ -16,7 +16,6 @@ import {Helmet} from "react-helmet";
 const About = () => (
 	<div>
 		<Helmet>
-            <title>About</title>
             <body class='blue-header' />
         </Helmet>
 		<Header></Header>

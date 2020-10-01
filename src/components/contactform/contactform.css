@@ -4,4 +4,8 @@
 .form-row { margin-bottom: 20px; }
 .contact-bg .btn { font-size: 22px; letter-spacing: 1px; font-weight: 600; }
 
+@media (max-width:767px){ 
+.contact-bg { padding:30px 15px; }
+}
+
 

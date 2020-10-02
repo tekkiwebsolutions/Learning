@@ -17,7 +17,7 @@ const Header = () => (
 			      <Link to="/tutoring" activeClassName="active">Tutoring</Link>
 			      <Link to="/" activeClassName="active">Online Courses</Link>
 			      <Link to="/about" activeClassName="active">About Us</Link>
-			      <Link to="/" className="get-started-btn">Get Started</Link>
+			      <Link to="/contact" className="get-started-btn">Get Started</Link>
 			    </Nav>
 			  </Navbar.Collapse>
 			 

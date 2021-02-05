@@ -53,24 +53,6 @@ export default function About(props) {
 							ourMissionDescription
 						  }
 						  ourMissionFooterBoldText
-						  renaissanceMethodTitle
-						  renaissanceSubTitle
-						  renaissanceBoldTitle
-						  renaissanceDescription {
-							renaissanceDescription
-						  }
-						  renaissanceImage {
-							fluid {
-							  src
-							  base64
-							  sizes
-							  srcWebp
-							  tracedSVG
-							  srcSetWebp
-							  srcSet
-							}
-						  }
-						  
 						}
 					}
 					
@@ -165,26 +147,25 @@ export default function About(props) {
 					<div className="pink-bg pt-6 pb-6">
 						<Container>
 							<div className="text-center mb-4 clearfix">
-								<h5>{data.contentfulAbout.renaissanceMethodTitle}</h5>
-			<h2 className="bg-title mt-4 clearfix"><mark className="blue-bg">{data.contentfulAbout.renaissanceSubTitle}</mark></h2>
+								<h5>THE RENAISSANCE METHOD</h5>
+								<h2 className="bg-title mt-4 clearfix"><mark className="blue-bg">Here’s how we help students develop a critical thinking toolkit to tackle any learning challenge</mark></h2>
 							</div>
 							<Row className="align-items-center">
 								<Col md={6}>
-									<p><b>{data.contentfulAbout.renaissanceBoldTitle}</b></p>
-									 <p>With it, we help students develop the critical thinking skills they need to:</p>
+									<p><b>The Renaissance Method is the foundation of LessonUp’s teaching approach.</b></p>
+									<p>With it, we help students develop the critical thinking skills they need to:</p>
 									<ul>
 										<li>- decode key concepts</li>
 										<li>- approach challenging problems</li>
 										<li>- prepare for tough assessment periods, and</li>
 										<li>- get better marks on exams.</li>
-									</ul> 
-									 <h4 className="mt-4 mb-4">How?</h4>
+									</ul>
+									<h4 className="mt-4 mb-4">How?</h4>
 									<p>We show them how to develop their own systems of evaluation, to learn how to enquire, and to build a toolkit of strategies and skills to select the most suitable approach for the task at hand.</p>
-									<p>As a result, students can finally take back control of their learning.</p> 
-									{/* {data.contentfulAbout.renaissanceDescription.renaissanceDescription} */}
+									<p>As a result, students can finally take back control of their learning.</p>
 								</Col>
 								<Col md={6}>
-									<img src={data.contentfulAbout.renaissanceImage.fluid.src} className="img-fluid" alt="" />
+									<img src={sam} className="img-fluid" alt="" />
 								</Col>
 							</Row>
 						</Container>

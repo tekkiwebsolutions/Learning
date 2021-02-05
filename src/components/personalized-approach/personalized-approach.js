@@ -48,16 +48,17 @@ export default function Approach() {
 					<Container>
 						<Row>
 							<Col md={6}>
-								 <h5>PERSONALISED APPROACH</h5>
+								{/* <h5>PERSONALISED APPROACH</h5>
 								<h2 className="bg-title mt-4 clearfix"><mark className="blue-bg">One-size-fits-all learning doesn’t work</mark></h2>
 								<p><b>Instead, get a personalised approach that’s aligned with your student’s unique needs.</b></p>
 								<p>Each student starts with a Student Success Strategy Session.</p>
-								<p>In that initial conversation, we’ll discuss your student’s specific struggles, so we can map a personalised plan to reach his or her goals.</p>
-											{/* <h5>{data.contentfulPersonalisedApproach.personalizedApproachTitile}</h5>
+								<p>In that initial conversation, we’ll discuss your student’s specific struggles, so we can map a personalised plan to reach his or her goals.</p> */}
+										<div>
+											<h5>{data.contentfulPersonalisedApproach.personalisedApproachTitle}</h5>
 											<h2 className="bg-title mt-4 clearfix"><mark className="blue-bg">{data.contentfulPersonalisedApproach.personalizedApproachSubTitile}</mark></h2>
 											<p><b>{data.contentfulPersonalisedApproach.personalizedApproachBoldSubtitle}</b></p>
-											<p>{data.contentfulPersonalisedApproach.personalizedApproachDescription.personalizedApproachDescription}</p> */}
-										
+											<p>{data.contentfulPersonalisedApproach.personalizedApproachDescription.personalizedApproachDescription}</p>
+										</div>
 							</Col>
 							<Col md={6}>							
 									<img src={data.contentfulPersonalisedApproach.personalizedApproachImage.fluid.src} className="img-fluid" alt="sam" />

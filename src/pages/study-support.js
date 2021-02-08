@@ -55,7 +55,7 @@ const StudySupport = () => (
 			<Row>
 				<Col xs={12} md={6} className="pl-0 mt-minus-100" >
 					<img src={success} alt="" className="img-fluid" />
-					<div className="round-circle middle-circle claire-parent">
+					<div className="round-circle middle-circle claire-parent box-shadow">
 						<p className="mb-0">“I learned the most amazing things about how to study. No one has ever taught me that before. Jordan even helped me make a game plan for how I would complete my assignment.”</p>
 						<p className="mb-0">SAM<br/>Student, Yr</p>
 					</div>
@@ -65,7 +65,7 @@ const StudySupport = () => (
 				<Row className="justify-content-end">
 					<Col xs={12} md={6} className="pr-0 mt-minus-100" >
 						<img src={success} alt="" className="img-fluid" />
-						<div className="round-circle claire-parent middle-left-circle">
+						<div className="round-circle claire-parent middle-left-circle box-shadow">
 							<p className="mb-0">“I thank Steve very much for his help during VCE. He reviewed my incorrect answers from SACs, and went over past papers leading up to the final exam.”</p>
 							<p className="mb-0">CATHERINE<br/>Student, Yr 12</p>
 						</div>

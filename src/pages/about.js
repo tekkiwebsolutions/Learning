@@ -54,7 +54,7 @@ const About = () => (
 					</Col>
 					<Col md={6} className="position-right">
 						<img src={success} className="img-fluid" alt="" />
-						<div className="round-circle bottom-circle">
+						<div className="round-circle bottom-circle box-shadow">
 							<p className="mb-1">“I highly recommend Jordan! He's a really nice guy, easy to understand and communicate with! Not only helps you with questions, but also with study tips and basic knowledge - 10/10!”</p>
 							<p>JULIE<br/>Student, Yr 12</p>
 						</div>
@@ -130,7 +130,7 @@ const About = () => (
 				<Row className="pt-6 founder align-items-center">
 					<Col md={6}>
 						<img src={success} className="img-fluid" alt="" />
-						<div className="round-circle founder-round-circle right-circle">Jordan Moschovitis</div>
+						<div className="round-circle founder-round-circle right-circle box-shadow">Jordan Moschovitis</div>
 					</Col>
 					<Col md={6} className="custom-pad">
 						<p>Jordan holds a Master’s degree in Physics and a Diploma in Pure and Applied Mathematics.</p>
@@ -148,7 +148,7 @@ const About = () => (
 					</Col>
 					<Col md={6} className="custom-pad">
 						<img src={success} className="img-fluid" alt="" />
-						<div className="round-circle founder-round-circle left-circle">Steven Maharaj</div>
+						<div className="round-circle founder-round-circle left-circle box-shadow">Steven Maharaj</div>
 					</Col>
 				</Row>
 			</Container>
@@ -162,7 +162,7 @@ const About = () => (
 				<Row className="align-items-center">
 					<Col md={6}>
 						<img src={success} className="img-fluid" alt="" />
-						<div className="round-circle smile-round right-circle">“The smile on my son’s face was priceless...”</div>
+						<div className="round-circle smile-round right-circle box-shadow">“The smile on my son’s face was priceless...”</div>
 					</Col>
 					<Col md={6} className="custom-pad">
 						<p>“Seeing the smile on my son's face after the tutoring sessions was priceless.</p>

@@ -38,7 +38,7 @@ const Contact = () => (
 			<Row className="align-items-baseline">
 				<Col md={6} className="pl-0">
 					<img src={success} alt="" className="img-fluid" />
-					<div className="round-circle right-circle">“Seeing the smile on my son's face after the tutoring sessions was priceless...</div>
+					<div className="round-circle right-circle box-shadow">“Seeing the smile on my son's face after the tutoring sessions was priceless...</div>
 				</Col>
 				<Col md={6}>
 					<p>The tutor designed his lessons based on my child's needs after patiently going over every single issue.</p>

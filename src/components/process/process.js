@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../fonts/fonts.css';
-import success from '../../images/success.jpg';
+import tutorImg from '../../images/lessonup-process.png';
 import { Link } from "gatsby";
 
 const Process = () => (
@@ -28,7 +28,7 @@ const Process = () => (
 				<p>Next: Schedule your free Student Success Strategy Session.</p>
 			</Col>
 			<Col md={6} className="position-right">
-				<img src={success} className="img-fluid" alt="" />
+				<img src={tutorImg} className="img-fluid" alt="" />
 			</Col>
 		</Row>
 	</Container>

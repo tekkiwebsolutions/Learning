@@ -2,14 +2,14 @@ import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../fonts/fonts.css';
-import sam from '../../images/sam.jpg';
+import roundBubbleImg from '../../images/lessonup-reading.png';
 import { Link } from "gatsby";
 
 const Approach = () => (
-<div className="sky-bg pt-9 mt-4 pb-30 approach">
+<div className="sky-bg mt-4 pb-30 approach">
 	<Container>
 		<Row>
-			<Col md={6}>
+			<Col md={6} className="pt-9">
 				<h5>PERSONALISED APPROACH</h5>
 				<h2 className="bg-title mt-4 clearfix"><mark className="blue-bg">One-size-fits-all learning doesn’t work</mark></h2>
 				<p><b>Instead, get a personalised approach that’s aligned with your student’s unique needs.</b></p>
@@ -17,10 +17,10 @@ const Approach = () => (
 				<p>In that initial conversation, we’ll discuss your student’s specific struggles, so we can map a personalised plan to reach his or her goals.</p>
 			</Col>
 			<Col md={6} className="position-right">
-				<img src={sam} className="img-fluid" alt="sam" />
+				<img src={roundBubbleImg} className="img-fluid position-right" alt="sam" />
 			</Col> 
 		</Row>
-		<Row className="mt-5">
+		<Row className="pt-9">
 			<Col md={4} className="text-center">
 				<h5 className="white-heading">CUSTOM PLANS</h5>
 				<p>We provide study, revision, and time management plans that are aligned with your student’s unique needs and learning style.</p>

@@ -15,9 +15,8 @@ const Header = () => (
 			    <Nav className="">
 			      <Link to="/study-support" activeClassName="active">Study Support</Link>
 			      <Link to="/tutoring" activeClassName="active">Tutoring</Link>
-			      <Link to="/" activeClassName="active">Online Courses</Link>
 			      <Link to="/about" activeClassName="active">About Us</Link>
-			      <Link to="/contact" className="get-started-btn">Get Started</Link>
+			      <Link to="/contact" className="get-started-btn box-shadow">Get Started</Link>
 			    </Nav>
 			  </Navbar.Collapse>
 			 

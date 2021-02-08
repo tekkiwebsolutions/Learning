@@ -57,7 +57,7 @@ const Tutoring = () => (
 				</Col>
 				<Col xs={12} md={9} className="pr-0 mt-minus-100" >
 					<img src={success} alt="" className="img-fluid" />
-					<div className="round-circle plr-5">
+					<div className="round-circle plr-5 custom-tutoring-round box-shadow">
 						<p className="mb-0">“I learned the most amazing things about how to study. No one has ever taught me that before.”</p>
 					</div>
 				</Col>

@@ -106,6 +106,12 @@ p { margin-bottom: 15px; }
 .bg-title  { float: left; line-height: 44px; width:100%; margin:20px 0; }
 .blue-bg { background-color: #3340bd; color:#fff; }
 
+.box-shadow{
+  -webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.14);
+-moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.14);
+box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.14);
+}
+
 .main-content { padding-top:100px; }
 
 .pt-9 { padding-top:90px; }
@@ -116,7 +122,6 @@ p { margin-bottom: 15px; }
 .pb-15 { padding-bottom: 150px; }
 .pb-30 { padding-bottom: 300px; }
 .mt-minus-100 { margin-top: -100px; }
-
 /*----- Button classes -----*/
 .btn { font-size: 24px; padding:6px 14px; border-radius: 30px; border:0; }
 .white-btn { background-color: #fff;  color:#3340bd;  }
@@ -150,10 +155,11 @@ p { margin-bottom: 15px; }
 
 .round-circle { background-color: #3340bd; justify-content: center; display: flex; flex-wrap: wrap; border-radius: 100%; color:#fff; padding:0px 30px 0px 60px; text-align: center; align-items: center; position: absolute; left:-60px; top:-110px; width: 370px; height: 370px; }
 .dummy-circle-img { height: 200px; width: 200px; margin:20px auto; border-radius: 100%; background-color: #eaeaea;  }
-
+.custom-tutoring-round { left:auto; right:0; }
 
 .white-heading  { background-color: #fff; border-radius: 30px; margin-bottom: 20px; display: inline-table; padding:8px 15px; color:#3340bd; }
 .claire-parent { width:420px; height: 420px; top:-160px; right:-100px; padding:50px 45px; left: auto; }
+.custom-claire-home { padding:80px 45px; }
 .bottom-circle { width:420px; height: 420px; top:auto; bottom:-200px; right:0px; padding:50px 70px; left: 0; margin:0px auto; }
 .position-right { position: absolute; right:0; padding: 0; }
 .position-left { position: absolute; left: 0; padding:0; }
@@ -177,7 +183,16 @@ p { margin-bottom: 15px; }
 .iconList img { margin-top: 5px; vertical-align: top; margin-right: 10px; }
 .centerdiv { max-width: 700px; }
 
-
+.BannerGroup{
+    border-radius: 0 0 250px 250px !important;
+box-shadow: 3px 9px 13px -9px rgba(0,0,0,0.25);
+-webkit-box-shadow: 3px 9px 13px -9px rgba(0,0,0,0.25);
+-moz-box-shadow: 3px 9px 13px -9px rgba(0,0,0,0.25);
+    padding-bottom: 8rem !important;
+    overflow: hidden;
+    -webkit-transition: .8s cubic-bezier(.2,.8,.2,1);
+    transition: .8s cubic-bezier(.2,.8,.2,1);
+}
 @media (max-width:991px){
     .white-box h4 { font-size: 20px;  }
     .girlsuperpower, .boysuperpower { display: none;  }

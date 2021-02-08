@@ -3,17 +3,18 @@ header { width:100%; }
 .navbar-light .navbar-nav a { color:rgba(0,0,0,.9);  padding-right: 1rem; padding-left: 1rem;}
 .get-started-btn { position: absolute; padding-top:100px; text-align: center; right:0; top:-70px; height: 200px; width: 200px; color:#fff !important; border-radius: 100%; background-color: #3340BD; }
 .get-started-btn:hover { background-color: #000; color:#fff; }
-.navbar-collapse.collapse { padding-left: 60px; }
+.navbar-collapse.collapse { padding-left: 140px; }
 .navbar-light .navbar-nav a.active { color: #3340bd; }
 
 @media (max-width:1200px){
 .navbar-light .navbar-nav a { font-size: 21px;  }
-.navbar-collapse.collapse { padding-left: 0; }
+.navbar-collapse.collapse { padding-left: 80px; }
 }
 
 @media (max-width:991px){
 .get-started-btn { position: relative; width: 150px; top: 0; height: auto; padding:7px 12px; border-radius: 30px; }	
 .navbar-light .navbar-nav a { padding:5px 0; }
+.navbar-collapse.collapse { padding-left: 0px; }
 }
 
 

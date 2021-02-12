@@ -11,6 +11,9 @@ import boysuperpower from '../images/boy-superpower.png';
 import dummyImg from '../images/dummy-img.png';
 import sam from '../images/sam.jpg';
 import success from '../images/success.jpg';
+import image1 from '../images/img1.jpg';
+import image2 from '../images/img2.jpg';
+import image3 from '../images/lessonup-l.png';
 import Footer from '../components/footer/footer.js';
 import '../components/footer/footer.css';
 import Approach from '../components/personalized-approach/personalized-approach.js';
@@ -42,21 +45,21 @@ const Home = () => (
 		   <div className="main-content pb-5 pt-2">
 				<Container>
 					<Row className="pt-9">
-						<Col xs={12} md={4} className="mb-3">
+						<Col xs={12} md={4} className="mb-4">
 						<Link to="/" className="white-box">
 							<img src={dummyImg} alt="dummyImg" className="img-fluid" />
 							<h4 className="mt-3 mb-2">PERSONALISED LEARNING</h4>
 							<p>You get study plans that are aligned with your student’s unique needs and learning style.</p>
 						</Link>
 						</Col>
-						<Col xs={12} md={4} className="mb-3">
+						<Col xs={12} md={4} className="mb-4">
 						<Link to="/" className="white-box">
 							<img src={dummyImg} alt="dummyImg" className="img-fluid" />
 							<h4 className="mt-3 mb-2">PROVEN STUDY STRATEGIES</h4>
 							<p>You get study plans that are aligned with your student’s unique needs and learning style.</p>
 						</Link>
 						</Col>
-						<Col xs={12} md={4} className="mb-3">
+						<Col xs={12} md={4} className="mb-4">
 						<Link to="/" className="white-box">
 							<img src={dummyImg} alt="dummyImg" className="img-fluid" />
 							<h4 className="mt-3 mb-2">EXPERIENCED TUTORS</h4>
@@ -67,13 +70,13 @@ const Home = () => (
 			   </Container>
 			<div className="mt-2 pt-9">
 				<Row className="ml-0 mr-0">
-				    <Col xs={12} md={6}>
-				    	<img src={sam} className="img-fluid" alt="sam" />
+				    <Col xs={12} lg={6}>
+				    	<img src={sam} className="img-fluid full-width mb-3" alt="sam" />
 					      <div className="round-circle box-shadow">
 					      	<p>“I’ve learned the most amazing things about how to study. No one has ever taught me that before.”</p>
 					      </div>
 				    </Col>
-				    <Col xs={12} md={6}>
+				    <Col xs={12} lg={6}>
 				      <p>“Jordan answers questions you thought you had. Then he adds and builds on the information so that you learn much more than you expected.</p>
 				      <p>He even helped me make a game plan for how to complete my assignment!</p>
 				      <p>I’ve learned the most amazing things about how to study. No one has ever taught me that before. I am very grateful to have him and LessonUp.”</p>
@@ -121,13 +124,13 @@ const Home = () => (
 			</div>
 		</Container>
 		<Approach></Approach>
-		<div className="pink-bg position-relative pb-30">
+		<div className="pink-bg position-relative pb-30 pb-m-0">
 			<Row>
-				<Col xs={12} md={9} className="pl-0 mt-minus-100" >
-					<img src={success} alt="" className="img-fluid" />
+				<Col xs={12} lg={9} className="pl-0 pr-0 mt-minus-100" >
+					<img src={image1} alt="" className="img-fluid " />
 					<div className="round-circle claire-parent custom-claire-home box-shadow">
 						<p className="mb-0">“Jordan designed his lessons based on my child's needs after patiently going over every single issue. Seeing the smile on my son's face after the tutoring was priceless.”</p>
-						<p className="mb-0">CLAIRE</p>
+						<p className="mb-0 mt-3 d-block w-100">CLAIRE</p>
 					</div>
 				</Col>
 			</Row>
@@ -135,23 +138,23 @@ const Home = () => (
 	<div className="pt-9 pb-30">
 		<Container>
 			<Row>
-				<Col md={6}>
+				<Col lg={6}>
 					<h5>EXPERIENCED TUTORS, PROVEN STRATEGIES</h5>
 					<h2 className="bg-title mt-4 clearfix"><mark className="pink-bg">Work with learning specialists (not recent grads) with scientifically proven study strategies</mark></h2>
 					<p><b>Other tutoring companies rely on high school students and recent graduates without any significant teaching background. Not us.</b></p>
 					<p>At LessonUp, we use proven learning strategies that are supported by science.</p>
 					<p>When you partner with our team, you get access to learning specialists who are armed with the knowledge and experience to help your student</p>
 				</Col>
-				<Col md={6} className="position-right mt-minus-250">
-					<img src={success} className="img-fluid" alt="" />
+				<Col lg={6} className="position-right position-r mt-minus-250">
+					<img src={image2} className="img-fluid" alt="" />
 				</Col>
 			</Row>
 		</Container>
 	</div>
 	<div className="sky-bg position-relative pb-6">
 		<Row className="justify-content-end">
-			<Col xs={12} md={9} className="pr-0 mt-minus-100" >
-				<img src={success} alt="" className="img-fluid" />
+			<Col xs={12} lg={9} className="pr-0 pl-0 mt-minus-100" >
+				<img src={image1} alt="" className="img-fluid full-width" />
 				<div className="round-circle claire-parent success-student box-shadow">
 					<p className="mb-0">“Now I worry less about the numbers and more focus more on the concepts and how to connect the concepts.</p>
 					<p className="mb-0">Jordan’s very passionate about maths. And it makes him an awesome tutor.”</p>
@@ -172,7 +175,7 @@ const Home = () => (
 				<Link to="/" className="btn blue-btn">Schedule our success session</Link>
 			</div>	
 			<div className="text-center mb-5">
-				<img src={success} alt="" className="img-fluid" />
+				<img src={image3} alt="" className="img-fluid" />
 			</div>	
 		</Container>
 	</div>

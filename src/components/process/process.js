@@ -6,14 +6,17 @@ import tutorImg from '../../images/lessonup-process.png';
 import { Link } from "gatsby";
 
 const Process = () => (
-	<Container className="pt-6 pb-6">
-		<div className="text-center clearfix">
-			<h5>THE PROCESS</h5>
-			<h2 className="bg-title mt-4 mb-5 clearfix"><mark className="pink-bg">Unlock supercharged Maths & Science skills with a more personalised approach</mark></h2>
-		</div>
-		<p>Here’s how we customise your student’s learning</p>
+	<div className="pt-6 pb-6">
+		<Container>
+			<div className="text-center clearfix">
+				<h5>THE PROCESS</h5>
+				<h2 className="bg-title mt-4 mb-5 clearfix"><mark className="pink-bg">Unlock supercharged Maths & Science skills with a more personalised approach</mark></h2>
+			</div>
+			
+		</Container>
 		<Row>
-			<Col md={6}>
+			<Col lg={6} className="padding-left">
+		    	<p>Here’s how we customise your student’s learning</p>
 				<h4 className="mb-2 mt-3">Step 1: Goals & Gaps</h4>
 				<p>Success is reverse-engineered. We begin by discussing your student’s key goals and what they’re struggling with in the classroom, so we  can design a plan to get your student to the finish line.</p>
 				<h4 className="mb-2 mt-3">Step 2: Starting Skills</h4>
@@ -27,11 +30,11 @@ const Process = () => (
 				<Link to="/" className="btn blue-btn mb-3">Get my personalised plan</Link>
 				<p>Next: Schedule your free Student Success Strategy Session.</p>
 			</Col>
-			<Col md={6} className="position-right">
-				<img src={tutorImg} className="img-fluid" alt="" />
+			<Col lg={6} className="position-right img-hide">
+				<img src={tutorImg} className="img-fluid float-right" alt="" />
 			</Col>
 		</Row>
-	</Container>
+	</div>
 
 )
 export default Process

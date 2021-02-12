@@ -107,9 +107,17 @@ p { margin-bottom: 15px; }
 .blue-bg { background-color: #3340bd; color:#fff; }
 
 .box-shadow{
-  -webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.14);
--moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.14);
-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.36);
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.36);
+}
+
+.full-width {
+    width:100% !important;
+}
+
+.padding-left {
+    padding-left:10%;
 }
 
 .main-content { padding-top:100px; }
@@ -122,6 +130,7 @@ box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.14);
 .pb-15 { padding-bottom: 150px; }
 .pb-30 { padding-bottom: 300px; }
 .mt-minus-100 { margin-top: -100px; }
+.pr5{padding-right:7em;}
 /*----- Button classes -----*/
 .btn { font-size: 24px; padding:6px 14px; border-radius: 30px; border:0; }
 .white-btn { background-color: #fff;  color:#3340bd;  }
@@ -176,7 +185,7 @@ box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.14);
 .seeing-round { width: 280px; height: 280px; padding:0px 40px; }
 .middle-circle { top:10px; right: -200px; }
 
-.schedule-my-success { background:url('./images/schdule-success.jpg') no-repeat; background-size: cover; padding:13% 0;}
+.schedule-my-success { background:url('./images/img5.jpg') no-repeat; background-size: cover; padding:15% 0 9%;}
 .contact-heading { font-size: 42px; font-weight: 500; }
 .middle-left-circle { left: -200px; top:10px; }
 .iconList li { margin-top:10px; }
@@ -193,10 +202,44 @@ box-shadow: 3px 9px 13px -9px rgba(0,0,0,0.25);
     -webkit-transition: .8s cubic-bezier(.2,.8,.2,1);
     transition: .8s cubic-bezier(.2,.8,.2,1);
 }
+
+.about-page .approach.pb-30 {
+   padding-bottom:100px;
+}
+
+@media (min-width:1400px){
+    .padding-left {
+        padding-left: 14%;
+    }
+}
+@media (min-width:1700px){
+    .padding-left {
+        padding-left: 17%;
+    }
+}
+@media (min-width:1800px){
+    .padding-left {
+        padding-left: 21%;
+    }
+}
+@media (max-width:1200px){
+    .tutoring-page .pb-30 {
+        padding-bottom:100px;
+     }
+}
 @media (max-width:991px){
     .white-box h4 { font-size: 20px;  }
     .girlsuperpower, .boysuperpower { display: none;  }
-    
+    .img-hide {display:none;}
+    .middle-circle, .contact-page .right-circle {right:15px; top:auto; bottom:15px;}
+    .middle-left-circle, .custom-tutoring-round {left:15px; top:auto; bottom:15px;}
+    .position-r {position: relative !important;}
+    .left-circle {left:auto; right:0px;}
+    .founder .custom-pad { padding-left: 15px; }
+    .custom-claire-home { right:0px;}
+    .mt-minus-250 { margin-top:0; }
+    .pb-m-0 {padding-bottom:0px;}
+    .success-student {left:0px;}
 }
 @media (max-width:767px){ 
    .round-circle { position: relative; width: 290px; height: 290px; top:-50px; left: 0; right: 0; padding:30px; margin:0px auto; font-size: 18px; } 
@@ -204,12 +247,13 @@ box-shadow: 3px 9px 13px -9px rgba(0,0,0,0.25);
    .pb-30 { padding-bottom: 50px; }
    .mt-minus-100 { margin-top: 0; }
    .img-fluid { margin:0px auto; display: block;  }
-   .mt-minus-250 { margin-top:0; }
+  
    .main-content { padding-top:50px; }
    .pb-15 { padding-bottom: 80px; }
    .pt-20 { padding-top: 60px; }
    .founder-round-circle { width: 200px; height: 200px; }
    .founder .custom-pad { padding-left: 0; }
+   .pr5{padding-right:0px;}
 
 }
 

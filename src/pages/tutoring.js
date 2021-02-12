@@ -17,11 +17,11 @@ import Pricing from '../components/pricing/pricing.js';
 import ScheduleSession from '../components/schedule-success-session/schedule-success-session.js';
 import '../components/contactform/contactform.css';
 import {Helmet} from "react-helmet";
-
+import image1 from '../images/img1.jpg';
 const Tutoring = () => (
 	<div>
 		<Helmet>
-            <body class='blue-header' />
+            <body class='blue-header tutoring-page' />
         </Helmet>
 		<Header></Header>
 		<div className="sky-bg pt-9 pb-30">
@@ -48,15 +48,15 @@ const Tutoring = () => (
 		</div>
 		<div className="pink-bg position-relative">
 			<Row className="align-items-center">
-				<Col xs={12} md={3}>
+				<Col xs={12} lg={3} className="pt-5">
 					<p>“Jordan knows his stuff.</p>
 					<p>He answers questions you thought you had. Then he adds and builds the information so that you learn much more than you expected.</p>
 					<p>He even helped me make a game plan for how I would complete my assignment!</p>
 					<p>I learned the most amazing things about how to study. No one has ever taught me that before.</p>
 					<p>SAM <br/>Student, Yr 11</p>
 				</Col>
-				<Col xs={12} md={9} className="pr-0 mt-minus-100" >
-					<img src={success} alt="" className="img-fluid" />
+				<Col xs={12} lg={9} className="pr-0 mt-minus-100" >
+					<img src={success} alt="" className="img-fluid full-width" />
 					<div className="round-circle plr-5 custom-tutoring-round box-shadow">
 						<p className="mb-0">“I learned the most amazing things about how to study. No one has ever taught me that before.”</p>
 					</div>
@@ -86,11 +86,11 @@ const Tutoring = () => (
 		<div className="mt-minus-100">
 			<Row>
 				<Col xs={12} md={7} className="pl-0">
-					<img src={success} className="img-fluid" alt="" />
+					<img src={image1} className="img-fluid" alt="" />
 				</Col>
 			</Row>
 		</div>
-		<Row className="justify-content-end pb-6">
+		<Row className="justify-content-end pb-6 pr-5">
 			<Col md={8}>
 				<div className="mt-minus-140">
 					<h2 className="bg-title mt-4 mb-5 clearfix"><mark className="pink-bg">Get better marks faster because we use scientifically proven learning strategies</mark></h2>
@@ -110,21 +110,25 @@ const Tutoring = () => (
 		</Row>
 		<div className="sky-bg pt-6 pb-6">
 			<Container>
-				<h5>TUTORING ADVANTAGES</h5>
-				<h2 className="bg-title mt-4 mb-5 clearfix"><mark className="blue-bg">When your student understands how to learn, any subject becomes easier to master</mark></h2>
-				<p>It doesn’t matter if your student’s goal is to catch up, stay on track, or excel in the classroom. Improvement is possible. Here’s how we do it:</p>
-				<h4 className="blue-color mb-2">Personalised tutoring aligned with your student’s needs</h4> 
-				<p>We personalise each tutoring program to meet your student’s individual strengths, weaknesses, and learning style.</p>
-				<h4 className="blue-color mb-2">Structured sessions with specific goals</h4>
-				<p>We personalise each tutoring program to meet your student’s individual strengths, weaknesses, and learning style.</p>
-				<h4 className="blue-color mb-2">Proven approach that’s supported by science</h4>
-				<p>Unlike less experienced tutors who just show up and explain things, we use a dynamic and adaptive approach to learning that’s backed by scientific studies.</p>
-				<h4 className="blue-color mb-2">Teaching supports that help students learn more e!ectively</h4>
-				<p>Our tutors show up prepared with lesson plans, study time templates, note-taking tips, and exam success strategies.</p>
-				<h4 className="blue-color mb-2">Flexible meetups that suit your schedule</h4>
-				<p>We offer tutoring both in-person and online, so your student can meet his or her tutor at home, at the local library, or on a Zoom video call.</p>
-				<h4 className="blue-color mb-2">All-day question support between sessions</h4>
-				<p>Your student gets access to his or her tutor almost 24/7. Get same-day support on unexpected questions without having to wait for the next tutoring session.</p>
+				<div className="text-center">
+			        <h5>TUTORING ADVANTAGES</h5>
+			    	<h2 className="bg-title mt-4 mb-5 clearfix"><mark className="blue-bg">When your student understands how to learn, any subject becomes easier to master</mark></h2>
+				</div>
+				<div className="col-lg-8 offset-lg-2">
+					<p className="pr5">It doesn’t matter if your student’s goal is to catch up, stay on track, or excel in the classroom. Improvement is possible. Here’s how we do it:</p>
+					<h4 className="blue-color mb-2">Personalised tutoring aligned with your student’s needs</h4> 
+					<p className="pr5">We personalise each tutoring program to meet your student’s individual strengths, weaknesses, and learning style.</p>
+					<h4 className="blue-color mb-2">Structured sessions with specific goals</h4>
+					<p className="pr5">We personalise each tutoring program to meet your student’s individual strengths, weaknesses, and learning style.</p>
+					<h4 className="blue-color mb-2">Proven approach that’s supported by science</h4>
+					<p className="pr5">Unlike less experienced tutors who just show up and explain things, we use a dynamic and adaptive approach to learning that’s backed by scientific studies.</p>
+					<h4 className="blue-color mb-2">Teaching supports that help students learn more e!ectively</h4>
+					<p className="pr5">Our tutors show up prepared with lesson plans, study time templates, note-taking tips, and exam success strategies.</p>
+					<h4 className="blue-color mb-2">Flexible meetups that suit your schedule</h4>
+					<p className="pr5">We offer tutoring both in-person and online, so your student can meet his or her tutor at home, at the local library, or on a Zoom video call.</p>
+					<h4 className="blue-color mb-2">All-day question support between sessions</h4>
+					<p className="pr5">Your student gets access to his or her tutor almost 24/7. Get same-day support on unexpected questions without having to wait for the next tutoring session.</p>
+				</div>
 			</Container>
 		</div>
 		<Process></Process>

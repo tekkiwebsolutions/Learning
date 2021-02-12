@@ -18,7 +18,7 @@ import {Helmet} from "react-helmet";
 const Contact = () => (
 	<div>
 		<Helmet>
-            <body class='blue-header' />
+            <body class='blue-header contact-page' />
         </Helmet>
 		<Header></Header>
 		<div className="sky-bg pt-9 pb-15">
@@ -36,11 +36,11 @@ const Contact = () => (
 		</div>
 		<div className="pink-bg pt-20 pb-15">
 			<Row className="align-items-baseline">
-				<Col md={6} className="pl-0">
-					<img src={success} alt="" className="img-fluid" />
+				<Col lg={6} className="pl-lg-0">
+					<img src={success} alt="" className="img-fluid full-width mb-4"/>
 					<div className="round-circle right-circle box-shadow">“Seeing the smile on my son's face after the tutoring sessions was priceless...</div>
 				</Col>
-				<Col md={6}>
+				<Col lg={6}>
 					<p>The tutor designed his lessons based on my child's needs after patiently going over every single issue.</p>
 					<p>It is especially helpful that, as a parent, he responds so quickly to my messages.”</p>
 					<p>CLAIRE<br/> Parent</p>
@@ -52,7 +52,6 @@ const Contact = () => (
 				<p><b>Phone:</b> 0407 145 612</p>
 				<p>You can reach us by phone during office hours Monday - Friday, 3 pm - 6 pm.<br/>
 					Leave us a message anytime, and we'll call you back.</p>
-
 				<p><b>Email:</b> hello@lessonup.com.au</p>
 				<p><b>Address:</b> We'd like to see you too, but our o!ce is entirely virtual. LessonUp tutors and coaches meet students at their homes, local libraries, and online via Zoom.</p>
 				<p><b>Locations:</b> Because learning skills transcend city limits, provincial, and country borders...</p>

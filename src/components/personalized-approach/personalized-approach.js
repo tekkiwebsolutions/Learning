@@ -7,20 +7,21 @@ import { Link } from "gatsby";
 
 const Approach = () => (
 <div className="sky-bg mt-4 pb-30 approach">
-	<Container>
+	
 		<Row>
-			<Col md={6} className="pt-9">
+			<Col lg={9} className="pt-9 padding-left pr-5">
 				<h5>PERSONALISED APPROACH</h5>
 				<h2 className="bg-title mt-4 clearfix"><mark className="blue-bg">One-size-fits-all learning doesn’t work</mark></h2>
 				<p><b>Instead, get a personalised approach that’s aligned with your student’s unique needs.</b></p>
 				<p>Each student starts with a Student Success Strategy Session.</p>
 				<p>In that initial conversation, we’ll discuss your student’s specific struggles, so we can map a personalised plan to reach his or her goals.</p>
 			</Col>
-			<Col md={6} className="position-right">
-				<img src={roundBubbleImg} className="img-fluid position-right" alt="sam" />
+			<Col lg={3} className="pr-0 img-hide">
+				<img src={roundBubbleImg} className="img-fluid float-right" alt="sam" />
 			</Col> 
 		</Row>
-		<Row className="pt-9">
+		<Container>
+		<Row className="pt-5">
 			<Col md={4} className="text-center">
 				<h5 className="white-heading">CUSTOM PLANS</h5>
 				<p>We provide study, revision, and time management plans that are aligned with your student’s unique needs and learning style.</p>

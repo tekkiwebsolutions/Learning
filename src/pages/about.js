@@ -12,11 +12,12 @@ import Footer from '../components/footer/footer.js';
 import '../components/footer/footer.css';
 import Approach from '../components/personalized-approach/personalized-approach.js';
 import {Helmet} from "react-helmet";
-
+import image2 from '../images/img2.jpg';
+import image4 from '../images/img4.png';
 const About = () => (
 	<div>
 		<Helmet>
-            <body class='blue-header' />
+            <body class='blue-header about-page' />
         </Helmet>
 		<Header></Header>
 		<div className="sky-bg pt-9 pb-15">
@@ -40,7 +41,7 @@ const About = () => (
 				</Row>
 				<h3 className="blue-color text-center pb-5">Parents say LessonUp tutors “go the extra mile”</h3>
 				<Row>
-					<Col md={6}>
+					<Col lg={6}>
 						<div className="mb-4">
 							<p>“Jordan truly cares about his students and cares even more about getting them where they need to go.</p>
 							<p>He doesn't watch the clock as some tutors do. And he provides extra support outside of lessons. It's clear he wants the child to fully understand and will go the extra mile for them.</p>
@@ -52,8 +53,8 @@ const About = () => (
 							<p>SAM <br/>Student, Yr 11</p>
 						</div>
 					</Col>
-					<Col md={6} className="position-right">
-						<img src={success} className="img-fluid" alt="" />
+					<Col lg={6} className="position-right position-r">
+						<img src={image2} className="img-fluid" alt="" />
 						<div className="round-circle bottom-circle box-shadow">
 							<p className="mb-1">“I highly recommend Jordan! He's a really nice guy, easy to understand and communicate with! Not only helps you with questions, but also with study tips and basic knowledge - 10/10!”</p>
 							<p>JULIE<br/>Student, Yr 12</p>
@@ -78,7 +79,7 @@ const About = () => (
 					<h2 className="bg-title mt-4 clearfix"><mark className="blue-bg">Work with learning specialists (not recent grads) with scientifically proven learning strategies</mark></h2>
 				</div>
 					<Row>
-						<Col md={6}>
+						<Col lg={6}>
 							<p><b>Other tutoring companies rely on high school students and recent graduates without any significant teaching background. Not us.</b></p>
 							<p>At LessonUp, we use proven learning strategies that are supported by science.</p>
 							<p>When you partner with our team, you get access to learning specialists who are armed with the knowledge and experience to help your student become a power learner.</p>
@@ -115,8 +116,8 @@ const About = () => (
 					  <p>We show them how to develop their own systems of evaluation, to learn how to enquire, and to build a toolkit of strategies and skills to select the most suitable approach for the task at hand.</p>
 					 <p>As a result, students can finally take back control of their learning.</p>
 					</Col>
-					<Col md={6}>
-						<img src={sam} className="img-fluid" alt="" />
+					<Col md={6} className="text-center">
+						<img src={image4} className="img-fluid" alt="" />
 					</Col>
 				</Row>
 			</Container>
@@ -128,11 +129,11 @@ const About = () => (
 					<h2 className="bg-title mt-4 clearfix"><mark className="pink-bg">Meet the Maths & Science masterminds behind LessonUp’s learning approach</mark></h2>
 				</div>
 				<Row className="pt-6 founder align-items-center">
-					<Col md={6}>
-						<img src={success} className="img-fluid" alt="" />
+					<Col lg={6}>
+						<img src={success} className="img-fluid mb-4" alt="" />
 						<div className="round-circle founder-round-circle right-circle box-shadow">Jordan Moschovitis</div>
 					</Col>
-					<Col md={6} className="custom-pad">
+					<Col lg={6} className="custom-pad">
 						<p>Jordan holds a Master’s degree in Physics and a Diploma in Pure and Applied Mathematics.</p>
 						<p>He has coached students at all skill levels on how to take charge of their learning and improve their grades in Maths & Science.</p>
 						<p>Over the years, Jordan has developed a dynamic and adaptive approach to learning that features scientifically proven strategies and tools.</p>
@@ -140,14 +141,14 @@ const About = () => (
 					</Col>
 				</Row>
 				<Row className="pt-6 founder align-items-center">
-					<Col md={6}>
+					<Col lg={6}>
 						<p>Steven holds a Master’s degree in Mathematics from the University of Melbourne.</p>
 						<p>He has nearly a decade of experience tutoring students both privately and professionally inside the university environment.</p>
 						<p>Study hacks and metacognition are special interest areas for Steven. Both are passions he enthusiastically shares with his students.</p>
 						<p>This result-boosting method is now the backbone of LessonUp’s approach.</p>
 					</Col>
-					<Col md={6} className="custom-pad">
-						<img src={success} className="img-fluid" alt="" />
+					<Col lg={6} className="custom-pad">
+						<img src={success} className="img-fluid mt-4" alt="" />
 						<div className="round-circle founder-round-circle left-circle box-shadow">Steven Maharaj</div>
 					</Col>
 				</Row>
@@ -160,11 +161,11 @@ const About = () => (
 		<div className="pink-bg pt-15 pb-6 founder">
 			<Container>
 				<Row className="align-items-center">
-					<Col md={6}>
+					<Col lg={6}>
 						<img src={success} className="img-fluid" alt="" />
 						<div className="round-circle smile-round right-circle box-shadow">“The smile on my son’s face was priceless...”</div>
 					</Col>
-					<Col md={6} className="custom-pad">
+					<Col lg={6} className="custom-pad">
 						<p>“Seeing the smile on my son's face after the tutoring sessions was priceless.</p>
 						<p>The tutor designed his lessons based on my child's needs after patiently going over every single issue.</p>
 						<p>It is especially helpful that, as a parent, he responds so quickly to my messages.”</p>

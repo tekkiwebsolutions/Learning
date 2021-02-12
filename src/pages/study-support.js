@@ -14,6 +14,9 @@ import calender from '../images/calender.jpg';
 import tool from '../images/tool.jpg';
 import search from '../images/search.jpg';
 import Footer from '../components/footer/footer.js';
+import image1 from '../images/img1.jpg';
+import image3 from '../images/img3.jpg';
+import image4 from '../images/img4.png';
 import '../components/footer/footer.css';
 import Process from '../components/process/process.js';
 import Students from '../components/successful-students/successful-students.js';
@@ -53,8 +56,8 @@ const StudySupport = () => (
 		</div>
 		<div className="pink-bg">
 			<Row>
-				<Col xs={12} md={6} className="pl-0 mt-minus-100" >
-					<img src={success} alt="" className="img-fluid" />
+				<Col xs={12} lg={6} className="pl-0 pr-0 mt-minus-100" >
+					<img src={image1} alt="" className="img-fluid" />
 					<div className="round-circle middle-circle claire-parent box-shadow">
 						<p className="mb-0">“I learned the most amazing things about how to study. No one has ever taught me that before. Jordan even helped me make a game plan for how I would complete my assignment.”</p>
 						<p className="mb-0">SAM<br/>Student, Yr</p>
@@ -63,8 +66,8 @@ const StudySupport = () => (
 			</Row>
 			<div className="position-relative pt-20 pb-15">
 				<Row className="justify-content-end">
-					<Col xs={12} md={6} className="pr-0 mt-minus-100" >
-						<img src={success} alt="" className="img-fluid" />
+					<Col xs={12} lg={6} className="pr-0 pl-0 mt-minus-100" >
+						<img src={image3} alt="" className="img-fluid" />
 						<div className="round-circle claire-parent middle-left-circle box-shadow">
 							<p className="mb-0">“I thank Steve very much for his help during VCE. He reviewed my incorrect answers from SACs, and went over past papers leading up to the final exam.”</p>
 							<p className="mb-0">CATHERINE<br/>Student, Yr 12</p>
@@ -164,7 +167,7 @@ const StudySupport = () => (
 						</div>
 					</Col>
 					<Col md={6} className="position-right">
-						<img src={success} alt="" className="img-fluid" />
+						<img src={image3} alt="" className="img-fluid" />
 					</Col>
 				</Row>
 			</Container>
@@ -174,20 +177,22 @@ const StudySupport = () => (
 				<div className="text-center mb-3 clearfix">
 					<h2 className="bg-title mt-4 clearfix"><mark className="blue-bg">With LessonUp, students can finally take back control of their marks</mark></h2>
 				</div>
-				<div className="">
-					<p className="mb-4">Students get the full spectrum of study support, including:</p>
-					<h4 className="blue-color mb-3">Study coaching sessions for extra support whenever it’s needed</h4>
-					<p>We help your student stay on top of weekly lessons, prepare for upcoming exams, and thrive during intense assessment periods.</p>
-					<h4 className="blue-color mb-3">Note-taking strategies for maximum understanding and recall</h4>
-					<p>We teach students how to take notes so that they focus, grasp concepts, make connections, and can later remember learnings at test time.</p>
-					<h4 className="blue-color mb-3">Study AI that predicts your student’s best study strategy</h4>
-					<p>Our software helps students effectively plan study time for exams, so you get the confidence that the study schedule supports your student’s goals.</p>
-					<h4 className="blue-color mb-3">Proven approach that’s supported by science</h4>
-					<p>We use a dynamic and adaptive approach to learning that’s backed by scientific studies so that your student becomes a stronger learner in the shortest time possible.</p>
-					<h4 className="blue-color mb-3">Custom study & revision plans to fit course load & test timelines</h4>
-					<p>We guide students to customise a study approach that’s aligned with current course loads. This way, they meet assignment deadlines and are fully prepared at test time.</p>
-					<h4 className="blue-color mb-3">Flexible meetups that suit your schedule</h4>
-					<p>We o!er study support both in-person and online. Your student can meet his or her study coach at home, at your local library, or on a Zoom video call.</p>
+				<div className="row">
+					<div className="col-lg-8 offset-lg-2">
+						<p className="mb-4">Students get the full spectrum of study support, including:</p>
+						<h4 className="blue-color mb-3">Study coaching sessions for extra support whenever it’s needed</h4>
+						<p className="pr5">We help your student stay on top of weekly lessons, prepare for upcoming exams, and thrive during intense assessment periods.</p>
+						<h4 className="blue-color mb-3">Note-taking strategies for maximum understanding and recall</h4>
+						<p className="pr5">We teach students how to take notes so that they focus, grasp concepts, make connections, and can later remember learnings at test time.</p>
+						<h4 className="blue-color mb-3">Study AI that predicts your student’s best study strategy</h4>
+						<p className="pr5">Our software helps students effectively plan study time for exams, so you get the confidence that the study schedule supports your student’s goals.</p>
+						<h4 className="blue-color mb-3">Proven approach that’s supported by science</h4>
+						<p className="pr5">We use a dynamic and adaptive approach to learning that’s backed by scientific studies so that your student becomes a stronger learner in the shortest time possible.</p>
+						<h4 className="blue-color mb-3">Custom study & revision plans to fit course load & test timelines</h4>
+						<p className="pr5">We guide students to customise a study approach that’s aligned with current course loads. This way, they meet assignment deadlines and are fully prepared at test time.</p>
+						<h4 className="blue-color mb-3">Flexible meetups that suit your schedule</h4>
+						<p className="pr5">We o!er study support both in-person and online. Your student can meet his or her study coach at home, at your local library, or on a Zoom video call.</p>
+					</div>
 				</div>
 			</Container>
 		</div>
@@ -197,7 +202,7 @@ const StudySupport = () => (
 					<h4>“Study AI? What is it?“</h4>
 					<h2 className="bg-title mt-4 clearfix"><mark className="blue-bg">Students get a custom study schedule that best supports their course load, test timelines & skill level</mark></h2>
 				</div>
-				<Row>
+				<Row className="align-items-center">
 					<Col md={6}>
 						<p>When planning an effective study plan, there’s so much to consider.</p>
 						<ul className="mb-4">
@@ -215,8 +220,8 @@ const StudySupport = () => (
 							<p className="mt-4">Next: Schedule your free Student Success Strategy Session.</p>
 						</div>
 					</Col>
-					<Col md={6}>
-						<img src={success} alt="" className="img-fluid" />
+					<Col md={6} className="text-center">
+						<img src={image4} alt="" className="img-fluid" />
 					</Col>
 				</Row>
 			</Container>

@@ -70,7 +70,7 @@ const Home = () => (
 			   </Container>
 			<div className="mt-2 pt-9">
 				<Row className="ml-0 mr-0">
-				    <Col xs={12} lg={6}>
+				    <Col xs={12} lg={6} className="pl-0">
 				    	<img src={sam} className="img-fluid full-width mb-3" alt="sam" />
 					      <div className="round-circle box-shadow">
 					      	<p>“I’ve learned the most amazing things about how to study. No one has ever taught me that before.”</p>

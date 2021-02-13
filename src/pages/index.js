@@ -46,21 +46,21 @@ const Home = () => (
 				<Container>
 					<Row className="pt-9">
 						<Col xs={12} md={4} className="mb-4">
-						<Link to="/" className="white-box">
+						<Link to="/study-support" className="white-box">
 							<img src={dummyImg} alt="dummyImg" className="img-fluid" />
 							<h4 className="mt-3 mb-2">PERSONALISED LEARNING</h4>
 							<p>You get study plans that are aligned with your student’s unique needs and learning style.</p>
 						</Link>
 						</Col>
 						<Col xs={12} md={4} className="mb-4">
-						<Link to="/" className="white-box">
+						<Link to="/study-support" className="white-box">
 							<img src={dummyImg} alt="dummyImg" className="img-fluid" />
 							<h4 className="mt-3 mb-2">PROVEN STUDY STRATEGIES</h4>
 							<p>You get study plans that are aligned with your student’s unique needs and learning style.</p>
 						</Link>
 						</Col>
 						<Col xs={12} md={4} className="mb-4">
-						<Link to="/" className="white-box">
+						<Link to="/tutoring" className="white-box">
 							<img src={dummyImg} alt="dummyImg" className="img-fluid" />
 							<h4 className="mt-3 mb-2">EXPERIENCED TUTORS</h4>
 							<p>You get study plans that are aligned with your student’s unique needs and learning style.</p>
@@ -96,7 +96,7 @@ const Home = () => (
 				    <h4 className="mb-2">PRIVATE TUTORING</h4>
 				    <p>The extra math & science support your student needs to solve problems confidently</p>
 				    <div className="">
-							<Link to="/" className="btn blue-btn">Get tutoring</Link>
+							<Link to="/tutoring" className="btn blue-btn">Get tutoring</Link>
 					</div>
 			    </Col>
 			    <Col xs={12} md={4} className="text-center">
@@ -105,7 +105,7 @@ const Home = () => (
 				    <h4 className="mb-2">STUDY SUPPORT</h4>
 				    <p>The study skills your student needs to plan and prep for assignments and exams</p>
 				    <div className="">
-						<Link to="/" className="btn blue-btn">Get study skills</Link>
+						<Link to="/study-support" className="btn blue-btn">Get study skills</Link>
 					</div>
 			    </Col>
 			    <Col xs={12} md={4} className="text-center">
@@ -172,7 +172,7 @@ const Home = () => (
 			<p>This future can be your student’s new reality.</p>
 			<p>Get started today with a free Student Success Strategy Session. We’ll discuss your student’s goals. And you’ll get a personalised learning plan.</p>
 			<div className="mb-5 mt-4">
-				<Link to="/" className="btn blue-btn">Schedule our success session</Link>
+				<Link to="/contact" className="btn blue-btn">Schedule our success session</Link>
 			</div>	
 			<div className="text-center mb-5">
 				<img src={image3} alt="" className="img-fluid" />

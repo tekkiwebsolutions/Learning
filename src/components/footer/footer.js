@@ -18,16 +18,16 @@ const Footer = () => (
 		    		<h4 className="mb-3">Navigation</h4>
 		    		<ul>
 		    			<li>
-		    				<Link to='/'>Study Support</Link>
+		    				<Link to='/study-support'>Study Support</Link>
 		    			</li>
 		    			<li>
-		    				<Link to='/'>Tutoring</Link>
+		    				<Link to='/tutoring'>Tutoring</Link>
 		    			</li>
-		    			<li>
+		    			{/* <li>
 		    				<Link to='/'>Online Courses</Link>
-		    			</li>
+		    			</li> */}
 		    			<li>
-		    				<Link to='/'>About Us</Link>
+		    				<Link to='/about'>About Us</Link>
 		    			</li>
 		    		</ul>
 		    	</Col>

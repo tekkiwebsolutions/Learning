@@ -36,7 +36,7 @@ const Approach = () => (
 			</Col>
 		</Row>
 		<div className="text-center mt-5">
-			<Link to="/" className="btn blue-btn">Get personalised help - Schedule a session</Link>
+			<Link to="/contact" className="btn blue-btn">Get personalised help - Schedule a session</Link>
 		</div>
 	</Container>
  </div>

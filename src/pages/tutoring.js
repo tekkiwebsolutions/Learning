@@ -18,6 +18,7 @@ import ScheduleSession from '../components/schedule-success-session/schedule-suc
 import '../components/contactform/contactform.css';
 import {Helmet} from "react-helmet";
 import image1 from '../images/img1.jpg';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 const Tutoring = () => (
 	<div>
 		<Helmet>
@@ -104,7 +105,7 @@ const Tutoring = () => (
 				</ul>
 				<p>That’s why we use scientifically proven learning strategies, structure sessions with measurable goals, monitor progress regularly, and personalise the approach to support your student’s unique needs.</p>
 				<p>We’re not just tutors, we’re learning specialists — armed with the knowledge and experience to unlock your student’s learning superpowers.</p>
-				<Link to="/" className="btn blue-btn mb-3">Give better marks faster</Link>
+				<button onClick={() => scrollTo('#session')} className="btn blue-btn mb-3">Give better marks faster</button>
 				<p>Next: Schedule your free Student Success Strategy Session.</p>
 			</Col>
 		</Row>
@@ -136,7 +137,7 @@ const Tutoring = () => (
 			<Students></Students>
 		</div>
 		<Pricing></Pricing>
-		<div className="pink-bg text-center pt-6 pb-6">
+		<div className="pink-bg text-center pt-6 pb-6" id="session">
 			<Container>
 				<div className="clearfix">
 					<h2 className="bg-title mt-4 mb-5 clearfix"><mark className="blue-bg">Get your student started today with a free Student Success Strategy Session</mark></h2>

@@ -14,6 +14,7 @@ import Approach from '../components/personalized-approach/personalized-approach.
 import {Helmet} from "react-helmet";
 import image2 from '../images/img2.jpg';
 import image4 from '../images/img4.png';
+import scrollTo from 'gatsby-plugin-smoothscroll';
 const About = () => (
 	<div>
 		<Helmet>
@@ -84,7 +85,8 @@ const About = () => (
 							<p>At LessonUp, we use proven learning strategies that are supported by science.</p>
 							<p>When you partner with our team, you get access to learning specialists who are armed with the knowledge and experience to help your student become a power learner.</p>
 							<div className="text-center">
-								<Link to="/" className="btn blue-btn">Work with the specialists</Link>
+							
+							<Link to="/contact" className="btn blue-btn btn-l">Work with the specialists</Link>
 								<p className="mt-4">Next: Schedule your free Student Success Strategy Session.</p>
 							</div>
 						</Col>
@@ -179,7 +181,7 @@ const About = () => (
 				<h3 className="mb-3">Learning specialists, proven strategies AND a personalised approach. Now that’s a powerful combination!</h3>
 				<p>Get your student started today. <br/> Schedule a free Student Success Strategy Session.</p>
 				<div className="">
-					<Link to="/" className="btn blue-btn">Get it all - Schedule a session</Link>
+					<Link to="/contact" className="btn blue-btn">Get it all - Schedule a session</Link>
 				</div>
 			</Container>
 		</div>

@@ -25,7 +25,7 @@ import ContactForm from '../components/contactform/contactform.js';
 import '../components/contactform/contactform.css';
 import ScheduleSession from '../components/schedule-success-session/schedule-success-session.js';
 import {Helmet} from "react-helmet";
-
+import scrollTo from 'gatsby-plugin-smoothscroll';
 const StudySupport = () => (
 	<div>
 		<Helmet>
@@ -138,7 +138,10 @@ const StudySupport = () => (
 					</ul>
 				</div>
 				<div className="text-center pt-5">
-					<Link to="/" className="btn blue-btn">Coach my student</Link>
+					<button 
+					  onClick={() => scrollTo('#session')} 
+					  className="btn blue-btn">Coach my student
+					</button>
 					<p className="mt-4">Next: Schedule your free Student Success Strategy Session.</p>
 				</div>
 			</Container>
@@ -162,7 +165,7 @@ const StudySupport = () => (
 						<p>We use scientifically proven learning strategies, structure sessions with measurable goals, monitor progress regularly, and personalise the approach to support your student’s unique needs.</p>
 						<p>We’re not just tutors, we’re learning specialists armed with the knowledge and experience to unlock your student’s learning superpowers.</p>
 						<div className="text-center mt-4">
-							<Link to="/" className="btn blue-btn">Give me proven strategies</Link>
+							<button onClick={() => scrollTo('#session')} className="btn blue-btn">Give me proven strategies</button>
 							<p className="mt-4">Next: Schedule your free Student Success Strategy Session.</p>
 						</div>
 					</Col>
@@ -216,7 +219,7 @@ const StudySupport = () => (
 						<p>The Study AI software program can propose your student’s best study and time management plan based on the course load, test timeline, di"culty level, available study time, and other preferences.</p>
 						<p>With a Study AI plan, you get the confidence that your student will be fully prepared at test time.</p>
 						<div className="text-center pt-4">
-							<Link to="/" className="btn blue-btn">Show me the best study plan</Link>
+							<button onClick={() => scrollTo('#session')}  className="btn blue-btn">Show me the best study plan</button>
 							<p className="mt-4">Next: Schedule your free Student Success Strategy Session.</p>
 						</div>
 					</Col>
@@ -231,7 +234,7 @@ const StudySupport = () => (
 			<Students></Students>
 		</div>
 		<Pricing></Pricing>
-		<div className="pink-bg text-center pt-6 pb-6">
+		<div className="pink-bg text-center pt-6 pb-6" id="session">
 			<Container>
 				<h2 className="bg-title mt-4 clearfix"><mark className="blue-bg">Get your student started today with a free Student Success Strategy Session</mark></h2>
 				<p>During your consultation, we’ll discuss your student’s specific learning needs, so we can make a personalised plan to reach his or her goals.</p>

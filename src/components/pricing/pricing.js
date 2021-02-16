@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../fonts/fonts.css';
 /*import success from '../../images/success.jpg';*/
 import { Link } from "gatsby";
-
+import scrollTo from 'gatsby-plugin-smoothscroll';
 const Pricing = () => (
 	<div className="">
 		<div className="pt-6 pb-6">
@@ -36,7 +36,7 @@ const Pricing = () => (
 							<h4 className="text-center mt-3">$70 per hour</h4>
 						</div>
 						<div className="text-center">
-							<Link to="/" className="btn pink-btn mt-5">Get tutoring support</Link>
+			                <button onClick={() => scrollTo('#session')} className="btn pink-btn mt-5">Get tutoring support</button>
 						</div>
 					</Col>
 				</Row>

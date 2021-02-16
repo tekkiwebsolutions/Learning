@@ -3,8 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../fonts/fonts.css';
 import tutorImg from '../../images/lessonup-process.png';
-import { Link } from "gatsby";
-
+// import { Link } from "gatsby";
+import scrollTo from 'gatsby-plugin-smoothscroll';
 const Process = () => (
 	<div className="pt-6 pb-6">
 		<Container>
@@ -27,7 +27,7 @@ const Process = () => (
 				<p>Strong learners have great study skills. We assess your student’s study habits, so we can correct bad behaviors and introduce more e!ective methods to support supercharged learning.</p>
 				<h4 className="mb-2 mt-3">Step 5: Personalised Plan</h4>
 				<p>These insights allow us to design a success strategy, personalised plan, and study schedule that’s aligned specifically with your student’s goals, skill gaps, and learning preferences.</p>
-				<Link to="/" className="btn blue-btn mb-3">Get my personalised plan</Link>
+				<button onClick={() => scrollTo('#session')} className="btn blue-btn mb-3">Get my personalised plan</button>
 				<p>Next: Schedule your free Student Success Strategy Session.</p>
 			</Col>
 			<Col lg={6} className="position-right img-hide">

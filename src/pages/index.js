@@ -36,7 +36,7 @@ const Home = () => (
 						<p>With our help, you can give your student the critical thinking and study skills they need to succeed in Maths & Science — no matter their current skill level.</p>
 						<p>Schedule a free Student Success Strategy Session to discuss your student’s goals and get a custom learning plan:</p>
 						<div className="mt-3">
-							<Link to="/" className="btn white-btn">Unleash my student’s superpowers</Link>
+							<Link to="/contact" className="btn white-btn">Unleash my student’s superpowers</Link>
 						</div>
 					</div>
 				</div>

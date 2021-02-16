@@ -114,7 +114,7 @@ const Home = () => (
 				    <h4 className="mb-2">ONLINE COURSES</h4>
 				    <p>The self-paced courses your student needs to master fundamental math skills</p>
 				    <div className="">
-						<Link to="/" className="btn blue-btn">See all courses</Link>
+						<Link to="/tutoring/#session" className="btn blue-btn">See all courses</Link>
 					</div>
 			    </Col>
 			</Row>

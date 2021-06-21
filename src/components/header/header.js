@@ -1,11 +1,14 @@
 import React from "react";
 import { Container, Nav, Navbar } from 'react-bootstrap';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../fonts/fonts.css';
 import logo from '../../images/logo.png';
 import { Link } from "gatsby";
 
 const Header = () => (
+	<>
+	
 	<header>
 		<Container>
 		    <Navbar expand="lg">
@@ -22,5 +25,6 @@ const Header = () => (
 			</Navbar>
 		</Container>
 	</header>
+	</>
 )
 export default Header
